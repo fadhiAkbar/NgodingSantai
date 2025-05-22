@@ -1,19 +1,66 @@
 ---
-title: "Learn How to Pre-render Pages Using Static Generation with Next.js"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-coverImage: "/assets/blog/hello-world/cover.jpg"
-date: "2020-03-16T05:35:07.322Z"
+title: "Belajar CSS Dasar"
+excerpt: "Pengenalan Dasar CSS (Cascading Style Sheets)"
+coverImage: "/assets/blog/css/css.png"
+date: "2025-05-22T05:35:07.322Z"
 author:
-  name: Tim Neutkens
-  picture: "/assets/blog/authors/tim.jpeg"
+  name: Fadhil Akbar Djunaedi
+  picture: "/assets/blog/authors/profile4.jpeg"
 ogImage:
   url: "/assets/blog/hello-world/cover.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+# Pengenalan Dasar CSS (Cascading Style Sheets)
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+## Apa Itu CSS?
 
-## Lorem Ipsum
+CSS adalah singkatan dari **Cascading Style Sheets**. CSS digunakan untuk mengatur tampilan dan gaya dari elemen HTML di sebuah halaman web, seperti warna, ukuran teks, posisi elemen, dan layout secara keseluruhan.
 
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
+Tanpa CSS, halaman web hanya akan terlihat polos karena HTML hanya mengatur struktur, bukan tampilan.
+
+---
+
+## Mengapa CSS Penting?
+
+Dengan CSS, kita bisa:
+
+- Membuat desain halaman yang menarik dan responsif.
+- Memisahkan antara **struktur (HTML)** dan **gaya (CSS)**.
+- Mengatur satu gaya untuk banyak halaman (reusable).
+- Menghemat waktu dan kode (lebih efisien daripada menambahkan style di setiap tag HTML).
+
+---
+
+## Cara Menyisipkan CSS
+
+CSS bisa ditulis dengan 3 cara:
+
+### 1. Inline CSS
+
+CSS langsung ditulis di dalam elemen HTML menggunakan atribut `style`.
+
+```html
+<p style="color: blue;">Teks ini berwarna biru.</p>
+```
+
+### 2. Internal CSS
+
+CSS ditulis di dalam tag <style> di bagian <head> dokumen HTML.
+
+```html
+<head>
+  <style>
+    p {
+      color: green;
+    }
+  </style>
+</head>
+```
+
+### 3. External CSS
+
+CSS ditulis di file terpisah (misalnya style.css) dan dihubungkan melalui tag <link>.
+
+```html
+<link rel="stylesheet" href="style.css" />
+```

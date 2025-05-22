@@ -1,16 +1,26 @@
 ---
-title: "belajar HTML"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-coverImage: "/assets/blog/hello-world/cover.jpg"
-date: "2020-03-16T05:35:07.322Z"
+title: "Belajar HTML dasar"
+excerpt: "Pengenalan HTML Dasar"
+coverImage: "/assets/blog/html/html.png"
+date: "2025-05-22T05:35:07.322Z"
 author:
-  name: Tim Neutkens
-  picture: "/assets/blog/authors/tim.jpeg"
+  name: Fadhil Akbar Djunaedi
+  picture: "/assets/blog/authors/profile4.jpeg"
 ogImage:
   url: "/assets/blog/hello-world/cover.jpg"
 ---
 
-# Hello
+# Pengenalan HTML Dasar
+
+## Apa Itu HTML?
+
+HTML adalah singkatan dari **HyperText Markup Language**. HTML merupakan bahasa dasar yang digunakan untuk membuat halaman web. Dengan HTML, kita bisa menentukan struktur dan isi dari sebuah halaman, seperti teks, gambar, link, tabel, dan elemen lainnya.
+
+## Fungsi HTML
+
+HTML berfungsi sebagai kerangka dari sebuah halaman web. Semua elemen yang tampil di browser seperti judul, paragraf, gambar, dan tombol ditulis menggunakan HTML.
+
+Contoh sederhana struktur HTML:
 
 ```html
 <!DOCTYPE html>
